@@ -1,11 +1,7 @@
 package VeryEasyQuestions
-
 import scala.util.Random
 
 object question1  extends App {
-
-    //clumsy enumeration definition
-
     sealed abstract class Suite
     case object Spade extends Suite
     case object Heart extends Suite
